@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&family=Roboto:wght@400;500;700;900&display=swap');
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/photos.css");
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-size: 17px;
+  margin: 0px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #3C270D;
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
+
+p {
+  text-align: justify;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  margin: 20px auto;
+}
+
+.content {
+  width: 700px;
+	background-color: white;
+	padding: 40px;
+	margin: 20px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+  .banner {
+    height:90%;
+  }
+}
+
+.guesthouse {
+  width: 100%;
+  height: auto;
+}
+
+.typeform-widget {
+  margin-top: 50px;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+ul {
+  display: block;
+  text-align: center;
+}
+
+.fa-facebook-f {
+  color: #3b5998;
+}
+
+.fa-facebook-f:hover {
+  color: black;
+}
+
+.fa-google {
+  color: #DB4437;
+}
+
+.fa-google:hover {
+  color: black;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.contact {
+  text-align: center;
+}

@@ -1,0 +1,21 @@
+.btn-brown {
+	font-family: Roboto, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	background: #CD7E32;
+	color: white;
+	padding: 15px 30px;
+	border-radius: 4px;
+}
+
+.btn-brown:hover {
+	background: #9A7B4F;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
